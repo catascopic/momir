@@ -1,0 +1,56 @@
+html {
+	
+}
+
+.buttons {
+	display: grid;
+	grid-template-columns: repeat(4, 40px);
+	grid-gap: 4px;
+	grid-auto-rows: 40px;
+}
+
+.generate {
+	font-family: 'Nova Cut';
+	font-size: 24px;
+	background-color: gray;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.log {
+	margin-top: 16px;
+}
+
+.message {
+	margin-bottom: 2px;
+	padding: 2px;
+	background-color: yellow;
+	border-radius: 4px;
+	font-family: 'Courier New';
+	font-size: 16px;
+	width: max-content;
+}
+
+input {
+	font-family: 'Courier New';
+	font-size: 12px;
+}
+
+.generate:hover {
+	background-color: #659D32;
+}
+
+.generate:active {
+	background-color: #32CD32;
+}
+
+.noselect, .generate {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
